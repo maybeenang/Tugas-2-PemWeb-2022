@@ -1,0 +1,34 @@
+{
+    "produk" : [
+        {
+            "nama" : "Buku",
+            "harga" : 5000,
+            "jumlah" : 30
+        },
+        {
+            "nama" : "Pensil",
+            "harga" : 2000,
+            "jumlah" : 50
+        },
+        {
+            "nama" : "Penghapus",
+            "harga" : 1000,
+            "jumlah" : 100
+        },
+        {
+            "nama" : "Penggaris",
+            "harga" : 1500,
+            "jumlah" : 20
+        },
+        {
+            "nama" : "Penghapus Kertas",
+            "harga" : 500,
+            "jumlah" : 100
+        },
+        {
+            "nama" : "Pulpen",
+            "harga" : 6000,
+            "jumlah" : 100
+        }
+    ]
+}

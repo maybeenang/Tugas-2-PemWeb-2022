@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #8de4af;
+    background-image: linear-gradient(45deg, #8de4af, #0b7a64); */
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+
+}
+
+.container {
+    /* border: 2px solid blue; */
+    width: 100vw;
+    height: 80vh;
+}
+
+header {
+    /* margin: 25vh auto 0 auto; */
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 100%;
+    max-width: 280px;
+    max-height: 653px;
+    background-color: #a56ea5;
+    border: 3px solid #72aeb4;
+    color: #edf5e0;
+}
+
+header h2 {
+    text-align: center;
+}
+
+main{
+    border-radius: 0 0 10px 10px;
+    border: 3px solid #72aeb4;
+    /* border-top: 0; */
+    background-color: #D9AFD9;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+form {
+    margin: 2vh auto 5vh auto;
+}
+
+label {
+    display: block;
+    margin: 4vh auto 1vh auto;
+    text-align: center;
+}
+
+input, select, #btn {
+    width: 80%;
+    height: 4vh;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    /* background-color: #05396b; */
+}
+
+input:active, input:focus, select:active, select:focus {
+    outline: none;
+}
+
+
+select {
+    text-align: unset;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+article {
+    /* border: 1px solid green; */
+    width: 50vw;
+    max-width: 280px;
+    margin: 4vh auto 2vh auto;
+}
+
+table {
+    margin: 2.7vw auto 2vw auto;
+}
+
+td:nth-child(2) {
+    text-align: center;
+    width: 1.5cm;
+}
+
+.btn {
+    background-color: #72aeb4;
+    color: #edf5e0;
+    display: block;
+    text-decoration: none;
+    border: 2px solid #389583;
+    border-radius: 5px;
+    margin: 6vh auto 4vh auto;
+    width: 80%;
+    text-align: center;
+    height: 5vh;
+    padding: 1vh 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f2f2f2;
+    color: #05396b;
+    border: 2px solid #05396b;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    width: 80%;
+    height: 5vh;
+    display: block;
+    margin: 4vh auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: #72aeb4;
+    border : 2px solid #389583;
+    color: #edf5e0;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f2f2f2;
+    color: #05396b;
+    border: 2px solid #05396b;
+}
+
+
+
+
